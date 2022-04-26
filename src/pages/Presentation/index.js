@@ -54,8 +54,8 @@ function Presentation() {
         action={{
           type: "external",
           route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "info",
+          label: "Devis gratuit",
+          color: "warning",
         }}
         sticky
       />
@@ -83,7 +83,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              Assurance prets{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -92,8 +92,10 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Pourquoi souscrire une assurance prets ? L’acquisition d’un bien 
+              immobilier nécessite la plupart du temps un crédit pour pouvoir 
+              le financer. Le plus souvent indissociable d’un emprunt immobilier, 
+              l’assurance prêts est un élément de garantie demandé par les banques.
             </MKTypography>
           </Grid>
         </Container>
@@ -120,28 +122,39 @@ function Presentation() {
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
-                variant="gradient"
                 color="info"
                 icon="flag"
-                title="Getting Started"
-                description="Check the possible ways of working with our product and the necessary files for building your own project."
+                title="L’Assurance prets est elle obligatoire ?"
+                description=" Suite à toute de demande de crédit immobilier,  
+                              les banques proposent aux emprunteurs leur propre 
+                              assurance : le contrat groupe (assurance mutualisée). 
+                              Et il s’agit pour elles d’une importante manne financière. 
+                              Mais sachez que vous êtes en droit d’aller voir ailleurs 
+                              pour vous assurer."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/material-kit/",
-                  label: "Let's start",
+                  route: "#LLL",
+                  label: "Devis gratuit",
                 }}
               />
             </Grid>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
+                variant="gradient"
                 color="info"
                 icon="precision_manufacturing"
-                title="Plugins"
-                description="Get inspiration and have an overview about the plugins that we used to create the Material Kit."
+                title="Souscrire une assurance de prêt"
+                description=" Les lois Lagarde, Hamon et Murcef vous autorisent 
+                              à souscrire une autre assurance emprunteur que celle 
+                              qui vous est présentée par le prêteur.Comparatif 
+                              assurance emprunteurEn faisant jouer la concurrence 
+                              entre les assureurs, vous pouvez trouver un contrat 
+                              moins cher et plus adapté à votre situation 
+                              que le contrat groupe des banques."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
-                  label: "Read more",
+                  route: "#LLL",
+                  label: "Devis gratuit",
                 }}
               />
             </Grid>
@@ -149,12 +162,20 @@ function Presentation() {
               <FilledInfoCard
                 color="info"
                 icon="apps"
-                title="Components"
-                description="Material Kit is giving you a lot of pre-made components, that will help you to build UI's faster."
+                title="Comparateur d'assurance de prets"
+                description=" Cabinet de courtage indépendant en assurance 
+                              de prêt se voulant une référence dans le secteur des 
+                              assurances pour les emprunteurs. En activité depuis 
+                              plus d’une dizaine d’années, il est aujourd’hui un 
+                              acteur majeur de l’assurance crédit et propose à 
+                              tous de nombreux avantages quels que soient leurs 
+                              profils : fumeurs, seniors, métiers dangereux… 
+                              Chacun bénéficie d’une offre sur mesure 
+                              défiant toute concurrence !"
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
-                  label: "Read more",
+                  route: "#LLL",
+                  label: "Devis gratuit",
                 }}
               />
             </Grid>
@@ -167,10 +188,10 @@ function Presentation() {
             <Grid container spacing={3}>
               <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
                 <MKTypography variant="h4" fontWeight="bold" mb={0.5}>
-                  Thank you for your support!
+                  Ne manquez rien!
                 </MKTypography>
                 <MKTypography variant="body1" color="text">
-                  We deliver the best web products
+                  Suivez nous sur les réseaux
                 </MKTypography>
               </Grid>
               <Grid
@@ -189,7 +210,7 @@ function Presentation() {
                   sx={{ mr: 1 }}
                 >
                   <i className="fab fa-twitter" />
-                  &nbsp;Tweet
+                  &nbsp;Tweetez
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
@@ -199,7 +220,7 @@ function Presentation() {
                   sx={{ mr: 1 }}
                 >
                   <i className="fab fa-facebook" />
-                  &nbsp;Share
+                  &nbsp;Partagez
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
@@ -208,7 +229,7 @@ function Presentation() {
                   color="pinterest"
                 >
                   <i className="fab fa-pinterest" />
-                  &nbsp;Pin it
+                  &nbsp;Pin't
                 </MKSocialButton>
               </Grid>
             </Grid>

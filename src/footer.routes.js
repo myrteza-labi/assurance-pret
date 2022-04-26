@@ -14,76 +14,69 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Material Kit 2",
+    name: "Assurance Prêts",
     image: logoCT,
     route: "/",
   },
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.facebook.com",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
+      link: "https://twitter.com",
     },
     {
       icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: "https://github.com",
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      link: "https://www.youtube.com",
     },
   ],
   menus: [
     {
-      name: "company",
+      name: "Menu",
       items: [
-        { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
+        { name: "Accueil", href: "#" },
+        { name: "Garantie", href: "#" },
+        { name: "Coût", href: "#" },
+        { name: "Comparatif", href: "#" },
+        { name: "Négociation", href: "#" },
+        { name: "Prêt", href: "#" },
+
       ],
     },
+
     {
-      name: "resources",
+      name: "Aide et support",
       items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
-      ],
-    },
-    {
-      name: "help & support",
-      items: [
-        { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
-        { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
-        { name: "custom development", href: "https://services.creative-tim.com/" },
-        { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
+        { name: "Nous contacter", href: "#" },
+
       ],
     },
     {
       name: "legal",
       items: [
-        { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-        { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
+        { name: "Mentions légales", href: "#" },
+        { name: "politique de confidentialité", href: "#" },
       ],
     },
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      Touts droits réservé. Copyright &copy; {date} Assurance Prêts | As Du Grand Lyon |  {" "}
       <MKTypography
         component="a"
-        href="https://www.creative-tim.com"
+        href="#"
         target="_blank"
         rel="noreferrer"
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
+        Développeur: LABI Myrteza
       </MKTypography>
       .
     </MKTypography>
